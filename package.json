@@ -1,0 +1,34 @@
+{
+  "name": "nfo",
+  "version": "0.1.0",
+  "description": "npm info with inverted args for multiple pkg support",
+  "main": "index.js",
+  "bin": {
+    "nfo": "cli.js"
+  },
+  "scripts": {
+    "test": "standard",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/nfo.git"
+  },
+  "keywords": [
+    "npm",
+    "info",
+    "view",
+    "show",
+    "package"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/nfo/issues"
+  },
+  "homepage": "https://github.com/nexdrew/nfo#readme",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "standard-version": "^4.0.0"
+  }
+}
