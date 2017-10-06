@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/nexdrew/nfo/compare/v1.0.0...v1.0.1) (2017-10-06)
+
+
+### Performance Improvements
+
+* improved performance via concurrent promises ([#4](https://github.com/nexdrew/nfo/issues/4)) ([b9ad320](https://github.com/nexdrew/nfo/commit/b9ad320))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/nexdrew/nfo/compare/v0.1.0...v1.0.0) (2017-10-06)
 
