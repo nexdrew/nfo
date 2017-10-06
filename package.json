@@ -6,9 +6,15 @@
   "bin": {
     "nfo": "cli.js"
   },
+  "files": [
+    "cli.js",
+    "help.js",
+    "index.js"
+  ],
   "scripts": {
     "pretest": "standard",
     "test": "tap --cov -j4 test/test*.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release": "standard-version"
   },
   "repository": {
@@ -29,6 +35,7 @@
   },
   "homepage": "https://github.com/nexdrew/nfo#readme",
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "standard": "^10.0.3",
     "standard-version": "^4.2.0",
     "tap": "^10.7.2"

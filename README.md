@@ -2,6 +2,9 @@
 
 > npm info with inverted args for multiple pkg support
 
+[![Build Status](https://travis-ci.org/nexdrew/nfo.svg?branch=master)](https://travis-ci.org/nexdrew/nfo)
+[![Coverage Status](https://coveralls.io/repos/github/nexdrew/nfo/badge.svg?branch=master)](https://coveralls.io/github/nexdrew/nfo?branch=master)
+
 Execute `npm info` against multiple packages all together. Useful for comparing the same field value across different published packages.
 
 Since it just wraps `npm info`, it respects your registry config in `.npmrc` and works with private packages. No special command-line options needed. (It may also be slow for this reason.)
