@@ -3,7 +3,7 @@
 > npm info with inverted args for multiple pkg support
 
 [![Build Status](https://travis-ci.org/nexdrew/nfo.svg?branch=master)](https://travis-ci.org/nexdrew/nfo)
-[![Coverage Status](https://coveralls.io/repos/github/nexdrew/nfo/badge.svg?branch=master)](https://coveralls.io/github/nexdrew/nfo?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/nexdrew/nfo/badge.svg?branch=master)](https://coveralls.io/github/nexdrew/nfo?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/nexdrew/nfo.svg)](https://greenkeeper.io/)
 
 Execute `npm info` against multiple packages all together. Useful for comparing the same field value across different published packages.
 
